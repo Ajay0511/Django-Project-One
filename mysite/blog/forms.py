@@ -4,7 +4,7 @@ from blog.models import Post,Comment
 class PostForm(forms.ModelForm):
 
     class Meta():
-        mocdel = Post
+        model = Post
         fields = ('author','title','text')
 
         widgets = {
